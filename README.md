@@ -1,7 +1,7 @@
 # SearchFight
 
 ## How do you can add another Search Engine?
-You just have to add another *SearchEngines* in **app.SearchFight.Dependencies** .
+You just have to add another *SearchEngines* in **app.SearchFight.Dependencies** and implement it .That's all .
 
 ## What do you need in order to build this solution?
 * 1.Netcore
