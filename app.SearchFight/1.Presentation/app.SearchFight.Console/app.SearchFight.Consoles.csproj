@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimpleInjector" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2.Service\app.SearchFight.Dependencie\app.SearchFight.Dependencies.csproj" />
+    <ProjectReference Include="..\..\2.Service\app.SearchFight.Interface\app.SearchFight.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

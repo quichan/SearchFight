@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\3.Common\app.SearchFight.Exceptions\app.SearchFight.Exceptions.csproj" />
+    <ProjectReference Include="..\..\3.Common\appSearchFight.Common\appSearchFight.Common.csproj" />
+    <ProjectReference Include="..\app.SearchFight.Interface\app.SearchFight.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

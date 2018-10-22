@@ -1,0 +1,3 @@
+D:\chipana\CIGNIUM\app.SearchFight\1.Presentation\app.SearchFight.Console\obj\Debug\netcoreapp2.0\app.SearchFight.Console.csproj.CoreCompileInputs.cache
+D:\chipana\CIGNIUM\app.SearchFight\1.Presentation\app.SearchFight.Console\obj\Debug\netcoreapp2.0\app.SearchFight.Console.AssemblyInfoInputs.cache
+D:\chipana\CIGNIUM\app.SearchFight\1.Presentation\app.SearchFight.Console\obj\Debug\netcoreapp2.0\app.SearchFight.Console.AssemblyInfo.cs

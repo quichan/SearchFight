@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{E07B2BFE-9AF4-4E22-8173-CC38ED40C922}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Service", "2.Service", "{05309F41-A19A-4CF8-8524-E38B89908FF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Common", "3.Common", "{A78D1AF9-A3BB-4818-B58F-0BD0778777EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app.SearchFight.Interface", "2.Service\app.SearchFight.Interface\app.SearchFight.Interface.csproj", "{5792FAF4-F6DC-40B3-A91D-C717CF77EBE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app.SearchFight.Implementation", "2.Service\app.SearchFight.Implementation\app.SearchFight.Implementation.csproj", "{4FA5A33A-4875-46F5-8BD4-14C6A9EEB917}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app.SearchFight.Dependencies", "2.Service\app.SearchFight.Dependencie\app.SearchFight.Dependencies.csproj", "{D0336F74-9812-4E18-8317-9959B2DADE0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app.SearchFight.Exceptions", "3.Common\app.SearchFight.Exceptions\app.SearchFight.Exceptions.csproj", "{2124F580-FA3A-419E-93BE-9772DF111E8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Test", "4.Test", "{15AC0FAD-0F3F-4ECB-B37D-36C67D41CAE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app.SearchFight.Test", "4.Test\app.SearchFight.Test\app.SearchFight.Test.csproj", "{5570DDE8-C045-4987-93FE-E39DBD6E98C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app.SearchFight.Consoles", "1.Presentation\app.SearchFight.Console\app.SearchFight.Consoles.csproj", "{EA4AC15F-70BA-4278-ADED-E7369E1332BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appSearchFight.Common", "3.Common\appSearchFight.Common\appSearchFight.Common.csproj", "{F454C80C-EDE7-4B89-A962-DCFF4F67126E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5792FAF4-F6DC-40B3-A91D-C717CF77EBE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5792FAF4-F6DC-40B3-A91D-C717CF77EBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5792FAF4-F6DC-40B3-A91D-C717CF77EBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5792FAF4-F6DC-40B3-A91D-C717CF77EBE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA5A33A-4875-46F5-8BD4-14C6A9EEB917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA5A33A-4875-46F5-8BD4-14C6A9EEB917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA5A33A-4875-46F5-8BD4-14C6A9EEB917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA5A33A-4875-46F5-8BD4-14C6A9EEB917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0336F74-9812-4E18-8317-9959B2DADE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0336F74-9812-4E18-8317-9959B2DADE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0336F74-9812-4E18-8317-9959B2DADE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0336F74-9812-4E18-8317-9959B2DADE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2124F580-FA3A-419E-93BE-9772DF111E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2124F580-FA3A-419E-93BE-9772DF111E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2124F580-FA3A-419E-93BE-9772DF111E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2124F580-FA3A-419E-93BE-9772DF111E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5570DDE8-C045-4987-93FE-E39DBD6E98C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5570DDE8-C045-4987-93FE-E39DBD6E98C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5570DDE8-C045-4987-93FE-E39DBD6E98C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5570DDE8-C045-4987-93FE-E39DBD6E98C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4AC15F-70BA-4278-ADED-E7369E1332BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4AC15F-70BA-4278-ADED-E7369E1332BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4AC15F-70BA-4278-ADED-E7369E1332BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4AC15F-70BA-4278-ADED-E7369E1332BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F454C80C-EDE7-4B89-A962-DCFF4F67126E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F454C80C-EDE7-4B89-A962-DCFF4F67126E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F454C80C-EDE7-4B89-A962-DCFF4F67126E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F454C80C-EDE7-4B89-A962-DCFF4F67126E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5792FAF4-F6DC-40B3-A91D-C717CF77EBE1} = {05309F41-A19A-4CF8-8524-E38B89908FF9}
+		{4FA5A33A-4875-46F5-8BD4-14C6A9EEB917} = {05309F41-A19A-4CF8-8524-E38B89908FF9}
+		{D0336F74-9812-4E18-8317-9959B2DADE0A} = {05309F41-A19A-4CF8-8524-E38B89908FF9}
+		{2124F580-FA3A-419E-93BE-9772DF111E8E} = {A78D1AF9-A3BB-4818-B58F-0BD0778777EB}
+		{5570DDE8-C045-4987-93FE-E39DBD6E98C3} = {15AC0FAD-0F3F-4ECB-B37D-36C67D41CAE7}
+		{EA4AC15F-70BA-4278-ADED-E7369E1332BD} = {E07B2BFE-9AF4-4E22-8173-CC38ED40C922}
+		{F454C80C-EDE7-4B89-A962-DCFF4F67126E} = {A78D1AF9-A3BB-4818-B58F-0BD0778777EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FE643CD-4CBC-4281-8FFE-2B23E4A5B327}
+	EndGlobalSection
+EndGlobal
